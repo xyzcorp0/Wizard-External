@@ -1,0 +1,2140 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (x64\Release\) contains files shared from another project (lipeee.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  cleaners.cpp
+  Aimbot.cpp
+  cam.cpp
+  dynamicfov.cpp
+  Esp.cpp
+  HandlingEditor.hpp
+  CMetaData.cpp
+  Friends.cpp
+  NVIDIA.cpp
+  SilentAim.cpp
+  Triggerbot.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'cleaners/cleaners.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\cleaners\cleaners.cpp(107,30):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\cleaners\cleaners.cpp(107,30):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'CleanPrefetchEntries'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=std::+::_Size_type,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=std::+::_Size_type
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=std::+::_Size_type,
+              _InIt=wchar_t *,
+              _SizeTy=std::+::_Size_type
+          ]
+  
+  Memory.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/CMetaData.cpp')
+  
+  GetConfig.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/cam.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Esp.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(442,86): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(445,107): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(587,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(593,87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(594,87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(608,87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(609,87): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(1502,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(1506,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(1507,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(1523,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Esp.cpp(1524,103): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Friends.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Friends.cpp(238,52): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\core\sdk\sdk.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\core\sdk\sdk.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/dynamicfov.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,38): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,54): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/SilentAim.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\SilentAim.cpp(420,54): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\SilentAim.cpp(422,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\SilentAim.cpp(736,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\SilentAim.cpp(737,48): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Aimbot.cpp(338,51): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Aimbot.cpp(340,52): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(78,81): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(311,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(323,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(333,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Core/Features/Exploits/HandlingEditor.hpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/Triggerbot.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Triggerbot.cpp(42,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Triggerbot.cpp(44,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/GetConfig.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.cpp(223,9): warning C4101: 'oldProtect': unreferenced local variable
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.cpp(318,23): warning C4018: '<': signed/unsigned mismatch
+  UpdateNames.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18): warning C4244: '=': conversion from 'wchar_t' to 'char', possible loss of data
+  (compiling source file 'Core/SDK/Memory.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xutility(4813,18):
+      the template instantiation context (the oldest one first) is
+          C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.cpp(817,26):
+          see reference to function template instantiation 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string<std::_String_iterator<std::_String_val<std::_Simple_types<_Elem>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Elem=wchar_t,
+              _Iter=std::_String_iterator<std::_String_val<std::_Simple_types<wchar_t>>>,
+              _Alloc=std::allocator<char>
+          ]
+              C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.cpp(817,26):
+              see the first reference to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>::basic_string' in 'Core::MemoryClass::OpenProcByPid'
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(812,17):
+          see reference to function template instantiation 'void std::basic_string<char,std::char_traits<char>,std::allocator<char>>::_Construct_from_iter<wchar_t*,wchar_t*,_Size_type>(_Iter,const _Sent,_Size)' being compiled
+          with
+          [
+              _Size_type=unsigned __int64,
+              _Iter=wchar_t *,
+              _Sent=wchar_t *,
+              _Size=unsigned __int64
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\xstring(968,18):
+          see reference to function template instantiation '_OutIt *std::_Copy_n_unchecked4<wchar_t*,_Size,char*>(_InIt,_SizeTy,_OutIt)' being compiled
+          with
+          [
+              _OutIt=char *,
+              _Size=unsigned __int64,
+              _InIt=wchar_t *,
+              _SizeTy=unsigned __int64
+          ]
+  
+  declar.cpp
+  Gui.cpp
+  Overlay.cpp
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_freetype.cpp
+  imgui_impl_dx11.cpp
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_widgets.cpp
+  MagicBullets.cpp
+  json.hpp
+  utils.hpp
+  lazyimporter.hpp
+  main.cpp
+  anti_vm.cpp
+  oxorany.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+  PawnNiggers.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+  api.hpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Threads/UpdateNames.cpp')
+  
+  api.cc
+  base64.cc
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+  md5.cc
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,38): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,54): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+  Auth.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(77,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(77,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(78,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(78,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(83,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(83,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(84,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(84,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(141,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(148,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(155,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(161,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(179,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(197,90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(241,95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(272,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(278,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(284,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(321,140): warning C4244: 'argument': conversion from 'float' to 'ImDrawFlags', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(353,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(354,103): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(504,62): warning C4311: 'type cast': pointer truncation from 'bool *' to 'int'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(504,62): warning C4302: 'type cast': truncation from 'bool *' to 'int'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(558,103): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(619,62): warning C4311: 'type cast': pointer truncation from 'bool *' to 'int'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(619,62): warning C4302: 'type cast': truncation from 'bool *' to 'int'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(713,114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(796,114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(892,62): warning C4311: 'type cast': pointer truncation from 'bool *' to 'int'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(892,62): warning C4302: 'type cast': truncation from 'bool *' to 'int'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(980,114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate_imgui/imgui_widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(1311,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+  hardware_breakpoints.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(78,81): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(311,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(323,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(333,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(15,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(16,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(17,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(18,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(31,20): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(67,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(68,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(69,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(70,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(104,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(108,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(267,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(274,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(281,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(288,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(296,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(298,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\Api\Auth\md5\md5.cc(106,37): warning C4267: 'argument': conversion from 'size_t' to 'MD5::size_type', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,38): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,54): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/PawnNiggers.cpp')
+  
+  interrupt3.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(78,81): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(311,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(323,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(333,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\ImGui\Files\imgui.h(7,9): warning C4005: 'ImGuiWindowFlags_WithoutScrollClamp': macro redefinition
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+      C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate_imgui\imconfig.h(2,9):
+      see previous definition of 'ImGuiWindowFlags_WithoutScrollClamp'
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\ImGui\Files\imgui.h(8,9): warning C4005: 'ImGuiButtonFlags_Repeat': macro redefinition
+  (compiling source file 'Gui/Overlay/Overlay.cpp')
+      C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate_imgui\imconfig.h(3,9):
+      see previous definition of 'ImGuiButtonFlags_Repeat'
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate_imgui\imgui_widgets.cpp(10593,90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\Api\structs\structs.hpp(23,9): warning C4005: 'NT_SUCCESS': macro redefinition
+  (compiling source file 'prot/PawnNiggers.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winternl.h(918,9):
+      see previous definition of 'NT_SUCCESS'
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'Core/Features/MagicBullets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\MagicBullets.cpp(30,48): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\MagicBullets.cpp(32,49): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  invalide_handle.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(264,29): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(290,68): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(290,58): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(290,49): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(291,67): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(291,57): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(291,47): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(292,72): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(292,63): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(292,53): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(293,73): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(293,64): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(293,55): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(294,68): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(294,59): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(294,50): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(295,81): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(295,71): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(295,61): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(296,73): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(296,64): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(296,55): warning C4305: 'argument': truncation from 'double' to 'float'
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,38): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,54): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'main.cpp')
+  
+  kerner_debugger.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(78,81): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(311,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(323,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(333,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Local.hpp(381,84): warning C4390: ';': empty controlled statement found; is this the intent?
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Pages\Settings.hpp(51,102): warning C4390: ';': empty controlled statement found; is this the intent?
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\Api\structs\structs.hpp(23,9): warning C4005: 'NT_SUCCESS': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winternl.h(918,9):
+      see previous definition of 'NT_SUCCESS'
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+  memory_breakpoint.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'Gui/Gui.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\AntiCrack.hpp(323,34): warning C4311: 'type cast': pointer truncation from 'HANDLE' to 'DWORD'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\AntiCrack.hpp(323,34): warning C4302: 'type cast': truncation from 'HANDLE' to 'DWORD'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\AntiCrack.hpp(411,39): warning C4312: 'type cast': conversion from 'ULONG' to 'HANDLE' of greater size
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\AntiCrack.hpp(418,19): warning C4312: 'type cast': conversion from 'ULONG' to 'HANDLE' of greater size
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(77,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(77,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(78,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(78,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(83,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(83,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(84,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(84,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(141,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(148,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(155,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(161,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(179,102): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(197,90): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(241,95): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(272,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(278,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(284,25): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(321,140): warning C4244: 'argument': conversion from 'float' to 'ImDrawFlags', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(353,91): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(354,103): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(504,62): warning C4311: 'type cast': pointer truncation from 'bool *' to 'int'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(504,62): warning C4302: 'type cast': truncation from 'bool *' to 'int'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(558,103): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(619,62): warning C4311: 'type cast': pointer truncation from 'bool *' to 'int'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(619,62): warning C4302: 'type cast': truncation from 'bool *' to 'int'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(713,114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(796,114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+  module_hook.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(892,62): warning C4311: 'type cast': pointer truncation from 'bool *' to 'int'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(892,62): warning C4302: 'type cast': truncation from 'bool *' to 'int'
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(980,114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Custom.hpp(1311,104): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Gui.cpp(427,35): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Gui.cpp(435,41): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Gui.cpp(444,26): warning C4305: 'argument': truncation from 'float' to 'bool'
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Gui.cpp(445,43): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Gui.cpp(452,39): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\ImGui\Files\imgui.h(7,9): warning C4005: 'ImGuiWindowFlags_WithoutScrollClamp': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate_imgui\imconfig.h(2,9):
+      see previous definition of 'ImGuiWindowFlags_WithoutScrollClamp'
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\ImGui\Files\imgui.h(8,9): warning C4005: 'ImGuiButtonFlags_Repeat': macro redefinition
+  (compiling source file 'main.cpp')
+      C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate_imgui\imconfig.h(3,9):
+      see previous definition of 'ImGuiButtonFlags_Repeat'
+  
+  page_breakpoint.cpp
+  process_job.cpp
+  protected_handle.cpp
+  protection.cpp
+  software_breakpoint.cpp
+  trap_flag.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(60,44): warning C4244: 'argument': conversion from 'WPARAM' to 'UINT', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(81,278): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(81,245): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(81,212): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(81,180): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,50): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,50): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,82): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,82): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,115): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,115): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,147): warning C4838: conversion from 'float' to 'int' requires a narrowing conversion
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Gui\Overlay\Overlay.cpp(85,147): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  unhandle_debug.cpp
+  write_watch.cpp
+  draw.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\prot\PawnNiggers.hpp(3,9): warning C4005: 'WRAPPER_ALIAN': macro redefinition
+  (compiling source file 'prot/protection.cpp')
+      C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\prot\oxorany_include.h(12,9):
+      see previous definition of 'WRAPPER_ALIAN'
+  
+  EspPreview.cpp
+  search.cpp
+  shadertoy.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\main.cpp(242,11): warning C4101: 'mouse': unreferenced local variable
+  slate.cpp
+  style.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/draw.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/draw.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/draw.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/draw.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/draw.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/EspPreview.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/search.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/EspPreview.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/search.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/EspPreview.cpp')
+  
+  widgets.cpp
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/EspPreview.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/EspPreview.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/search.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/shadertoy.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/shadertoy.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/search.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/search.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/shadertoy.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'prot/protection.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/shadertoy.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/shadertoy.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\shadertoy.cpp(171,34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Security\Api\structs\structs.hpp(23,9): warning C4005: 'NT_SUCCESS': macro redefinition
+  (compiling source file 'prot/protection.cpp')
+      C:\Program Files (x86)\Windows Kits\10\Include\10.0.26100.0\um\winternl.h(918,9):
+      see previous definition of 'NT_SUCCESS'
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/style.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/style.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/style.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/style.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/style.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\style.cpp(20,52): warning C4305: 'argument': truncation from 'double' to 'float'
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(330,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\types.h(331,22): warning C4244: '=': conversion from 'UINT' to 'float', possible loss of data
+  (compiling source file 'slate/src/widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\EspPreview.h(59,18): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(52,34): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\include\shadertoy.h(53,36): warning C4244: '=': conversion from 'float' to 'UINT', possible loss of data
+  (compiling source file 'slate/src/widgets.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(30,77): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(285,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(285,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(834,55): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(861,34): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1555,117): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1558,117): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1562,168): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1566,184): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1569,114): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1784,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1784,62): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\Utils.hpp(27,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(157,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(158,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(159,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(160,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(195,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(196,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(197,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(198,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(239,41): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(240,42): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(241,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(244,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(245,46): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(246,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\config.hpp(247,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Memory.hpp(127,20): warning C4244: 'initializing': conversion from 'unsigned long' to 'uint8_t', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1075,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\Structs\GameClasses.hpp(1085,32): warning C4244: 'return': conversion from 'BOOL' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(529,51): warning C4018: '>=': signed/unsigned mismatch
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\SDK\SDK.hpp(535,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,38): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Threads\ScreenResolution.hpp(351,54): warning C4838: conversion from 'DWORD' to 'LONG' requires a narrowing conversion
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(123,75): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Notify.hpp(124,70): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(78,81): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(311,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(323,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Core\Features\Exploits\Exploits.hpp(333,22): warning C4305: 'argument': truncation from 'float' to 'bool'
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(15,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(16,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(17,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(18,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(31,20): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(67,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(68,48): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(69,14): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(70,35): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(78,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,105): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,84): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(79,51): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(104,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(108,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(267,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(274,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(281,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(288,44): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(296,30): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\Includes\CustomWidgets\Preview.hpp(298,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'slate/src/slate.cpp')
+  
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1381,48): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1386,46): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1465,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1471,60): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1475,64): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1482,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1489,53): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1871,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1878,54): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1884,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1893,47): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1898,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1907,47): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1913,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1945,65): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1950,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1954,30): warning C4305: 'argument': truncation from 'float' to 'bool'
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1955,49): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1960,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(1966,77): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2048,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2054,79): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2065,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2077,53): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2085,13): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2094,53): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2102,13): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2109,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2115,77): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2121,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2131,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2136,56): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2146,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2157,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2190,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2196,39): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2202,61): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2208,45): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2213,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2220,58): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2253,66): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2261,57): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2268,66): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(2273,52): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3693,66): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3699,65): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3718,68): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3737,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3741,57): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3745,57): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3758,73): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3768,69): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3774,65): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3781,67): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3792,65): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3796,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3800,55): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3814,70): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3823,67): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3831,54): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3841,66): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(3850,53): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5072,93): warning C4390: ';': empty controlled statement found; is this the intent?
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5237,74): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5243,74): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5249,74): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5255,74): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5261,74): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5267,74): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5295,73): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5303,71): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5314,72): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\slate.cpp(5368,60): warning C4244: 'argument': conversion from 'float' to 'time_t', possible loss of data
+x64\Release\api.obj : warning LNK4042: object specified more than once; extras ignored
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Previous IPDB was built with incompatible compiler, fall back to full compilation.
+C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\src\slate\src\widgets.cpp(1444): warning C4715: 'c_widgets::widget_colorpicker::square': not all control paths return a value
+  All 15215 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  src.vcxproj -> C:\Users\Admin\Downloads\Wizard External\Wizard External (new)\x64\Release\Wizard External.exe

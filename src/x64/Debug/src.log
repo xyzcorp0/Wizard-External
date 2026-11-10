@@ -1,0 +1,5 @@
+﻿  Aimbot.cpp
+  dynamicfov.cpp
+E:\AWIZARD\Cheat\Wizard External\src\Core\Features\Aimbot.hpp(2,10): error C1083: Cannot open include file: 'Includes/Includes.hpp': No such file or directory
+  (compiling source file 'Core/Features/Aimbot.cpp')
+  
